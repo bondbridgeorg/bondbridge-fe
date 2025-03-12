@@ -11,3 +11,13 @@ body, html {
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+.grad {
+    background: linear-gradient(230.53deg, #FF31E4 7.13%, #7500F3 42.69%, #002CBE 61.29%, #0DECF0 90.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+  

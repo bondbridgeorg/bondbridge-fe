@@ -6,7 +6,7 @@ const SecondaryCTA = () => {
 			<div className='w-full max-w-6xl bg-gradient-to-r from-[#4A8FE9] via-[#000000] to-[#DA23C8] rounded-2xl shadow-xl p-8 flex flex-col items-center text-center'>
 				<img
 					src='/icon-logo.png'
-					alt='Bond Bridge Logo'
+					alt='BondBridge Logo'
 					className='w-24 md:w-32'
 				/>
 
@@ -18,7 +18,7 @@ const SecondaryCTA = () => {
 						WebkitTextFillColor: 'transparent',
 					}}
 				>
-					Bond Bridge
+					BondBridge
 				</h2>
 
 				<div className='w-20 h-[2px] bg-white opacity-60 mt-2'></div>

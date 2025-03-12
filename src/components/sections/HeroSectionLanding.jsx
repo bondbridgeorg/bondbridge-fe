@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom';
 const HeroSection = () => {
 	return (
 		<section className='relative w-full lg:min-h-screen flex flex-col items-center justify-center px-8 lg:px-20 pt-28 lg:pt-36 pb-10 lg:py-10'>
-			<div className='mx-auto max-w-sm'>
-				<img src='/landing/mid-logo.png' className='w-full object-contain' />
+			<div className='mx-auto max-w-sm space-y-2'>
+				<img src='/landing/mid-logo.png' className='w-full object-contain h-24' />
+				<h2 className='text-4xl font-medium grad'>BondBridge</h2>
 			</div>
 
 			<div className='grid grid-cols-1 lg:grid-cols-2 md:gap-10 items-center text-center lg:text-left'>

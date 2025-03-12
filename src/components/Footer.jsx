@@ -18,7 +18,7 @@ const Footer = () => {
 					<div className='flex flex-col gap-10 items-center bg-[#1D2939] px-4 py-3 rounded-lg w-fit'>
 						<img
 							src='/logo-invert.png'
-							alt='Bond Bridge Logo'
+							alt='BondBridge Logo'
 							className='w-full h-auto'
 						/>
 						<div className='h-1 w-full border-t-1 border-gray-50/20'></div>
@@ -26,7 +26,7 @@ const Footer = () => {
 							<p className='flex items-center gap-2 text-sm text-gray-300'>
 								<img
 									src='/icons/location.png'
-									alt='Bond Bridge Logo'
+									alt='BondBridge Logo'
 									className='size-4'
 								/>
 								Gautam Buddha Uttar Pradesh
@@ -34,7 +34,7 @@ const Footer = () => {
 							<p className='flex items-center gap-2 text-sm text-gray-300'>
 								<img
 									src='/icons/sms.png'
-									alt='Bond Bridge Logo'
+									alt='BondBridge Logo'
 									className='size-4'
 								/>
 								<a href='mailto:hellomoto2004@gmail.com'>

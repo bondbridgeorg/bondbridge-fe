@@ -15,8 +15,9 @@ const Header = () => {
 			{/* Navigation Bar */}
 			<nav className='fixed top-0 w-full py-4 px-4 md:px-16 bg-white text-black flex justify-between items-center shadow-md z-50'>
 				{/* Logo */}
-				<Link to={'/'} className='w-40 h-auto'>
-					<img src='/logo.png' alt='Logo' className='w-full h-auto' />
+				<Link to={'/'} className='my-1 h-max'>
+				<h3 className='text-3xl text-[25px] font-medium grad'>BondBridge</h3>
+					{/* <img src='/logo.png' alt='Logo' className='w-full h-auto' /> */}
 				</Link>
 
 				{/* Desktop Navigation Links */}
