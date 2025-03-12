@@ -27,38 +27,38 @@ const routes = createBrowserRouter([
 		),
 		children: [
 			{ index: true, element: <Landing /> },
-			{
-				path: 'how-to-use',
-				element: (
-					<Suspense fallback={<PageLoader />}>
-						<Support />
-					</Suspense>
-				),
-			},
-			{
-				path: 'about',
-				element: (
-					<Suspense fallback={<PageLoader />}>
-						<About />
-					</Suspense>
-				),
-			},
-			{
-				path: 'download',
-				element: (
-					<Suspense fallback={<PageLoader />}>
-						<Download />
-					</Suspense>
-				),
-			},
-			{
-				path: 'contact-us',
-				element: (
-					<Suspense fallback={<PageLoader />}>
-						<ContactUs />
-					</Suspense>
-				),
-			},
+			// {
+			// 	path: 'how-to-use',
+			// 	element: (
+			// 		<Suspense fallback={<PageLoader />}>
+			// 			<Support />
+			// 		</Suspense>
+			// 	),
+			// },
+			// {
+			// 	path: 'about',
+			// 	element: (
+			// 		<Suspense fallback={<PageLoader />}>
+			// 			<About />
+			// 		</Suspense>
+			// 	),
+			// },
+			// {
+			// 	path: 'download',
+			// 	element: (
+			// 		<Suspense fallback={<PageLoader />}>
+			// 			<Download />
+			// 		</Suspense>
+			// 	),
+			// },
+			// {
+			// 	path: 'contact-us',
+			// 	element: (
+			// 		<Suspense fallback={<PageLoader />}>
+			// 			<ContactUs />
+			// 		</Suspense>
+			// 	),
+			// },
 		],
 	},
 ]);

@@ -13,14 +13,14 @@ const Landing = () => {
 	return (
 		<>
 			<HeroSection />
-			<InteractiveImage />
+			{/* <InteractiveImage />
 			<FeaturesSection />
 			<WorkSection />
 			<ExploreCommunities />
 			<WhyBondBridge />
 			<TestimonialSection />
 			<ActiveUsersSection />
-			<SecondaryCTA />
+			<SecondaryCTA /> */}
 		</>
 	);
 };
